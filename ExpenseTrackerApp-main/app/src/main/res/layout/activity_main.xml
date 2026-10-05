@@ -23,7 +23,7 @@
         android:layout_width="0dp"
         android:layout_height="56dp"
         android:layout_marginBottom="116dp"
-        android:text="@string/btn_dashboard"
+        android:text="@string/btn_Startlab"
         android:textSize="16sp"
         android:textStyle="bold"
         app:backgroundTint="@color/primary_red"
@@ -33,10 +33,13 @@
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent" />
 
+    <!-- Card container for App Branding & Welcome info -->
     <TextView
         android:id="@+id/tvLabTitle"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="32dp"
         android:text="@string/lab_title"
         android:textAllCaps="true"
         android:textColor="@color/accent_teal"
@@ -45,7 +48,6 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <!-- Card container for App Branding & Welcome info -->
     <com.google.android.material.card.MaterialCardView
         android:id="@+id/cardWelcome"
         android:layout_width="0dp"
@@ -72,7 +74,7 @@
         android:layout_width="0dp"
         android:layout_height="56dp"
         android:layout_marginBottom="36dp"
-        android:text="@string/btn_get_started"
+        android:text="@string/btn_SeeProject"
         android:textSize="16sp"
         android:textStyle="bold"
         app:backgroundTint="@color/primary_green"
